@@ -157,7 +157,6 @@ elif window_function == 4:
         w_values = 0.42 + 0.5*cos(b[i] * pi / M) + 0.08*sin(2* b[i] * pi / M)
         w.append(w_values)
 
-
 for i in range(len(h)):
     h_values = h[i] * w[i]
     h_new.append(h_values)
